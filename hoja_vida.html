@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hoja de vida y portafolio de Michael Steven Romero Ciro, Técnico en Programación de Software y aprendiz de ADSO.">
+  <title>Michael Steven Romero Ciro | Portafolio</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0b1020; --panel: #121a2e; --text: #e8edf8;
+      --muted: #a9b5cc; --accent: #67e8f9; --accent2: #c4b5fd; --line: #283550;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; font-family: system-ui, sans-serif; line-height: 1.65;
+      background: radial-gradient(ellipse at top right, #182747 0, var(--bg) 48%); color: var(--text); }
+    a { color: var(--accent); }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+    .container { width: min(100% - 2rem, 1000px); margin-inline: auto; }
+    header { padding: 4.5rem 0 3rem; }
+    .eyebrow { color: var(--accent); font-weight: 700; letter-spacing: .12em; text-transform: uppercase; font-size: .8rem; }
+    h1 { font-size: clamp(2.2rem, 6vw, 4rem); line-height: 1.1; margin: .6rem 0 1rem; }
+    h2 { font-size: 1.45rem; margin-top: 0; }
+    .subtitle { color: var(--accent2); font-weight: 650; font-size: 1.1rem; }
+    .intro { color: var(--muted); max-width: 720px; font-size: 1.05rem; }
+    nav { display: flex; flex-wrap: wrap; gap: .7rem; margin-top: 1.5rem; }
+    nav a { text-decoration: none; padding: .65rem .95rem; border: 1px solid var(--line); border-radius: .7rem; background: #111a2b; }
+    nav a:hover { border-color: var(--accent); }
+    main { padding-bottom: 3rem; }
+    section { margin: 1.1rem 0; padding: clamp(1.2rem, 3vw, 2rem); background: var(--panel); border: 1px solid var(--line); border-radius: 1rem; }
+    p, li { color: var(--muted); } strong { color: var(--text); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+    .skill { border: 1px solid var(--line); border-radius: .8rem; padding: 1rem; }
+    .skill h3 { margin: 0 0 .45rem; color: var(--accent2); font-size: 1rem; }
+    .tags { display: flex; flex-wrap: wrap; gap: .45rem; padding: 0; list-style: none; }
+    .tags li { background: #1b2942; color: var(--text); padding: .3rem .65rem; border-radius: 999px; font-size: .9rem; }
+    .sena-list { margin: 0; padding-left: 1.2rem; }
+    .sena-list li { margin-bottom: .4rem; }
+    .project { padding: 1rem 0; border-top: 1px solid var(--line); }
+    .project:first-of-type { border-top: 0; }
+    .note { font-size: .9rem; }
+    footer { border-top: 1px solid var(--line); padding: 1.5rem 0 2.5rem; color: var(--muted); font-size: .9rem; }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  </style>
+</head>
+<body>
+  <header class="container">
+    <div class="eyebrow">Hoja de vida · Portafolio tecnológico</div>
+    <h1>Michael Steven<br>Romero Ciro</h1>
+    <div class="subtitle">Técnico en Programación de Software · Aprendiz de ADSO</div>
+    <p class="intro">Me interesa comprender cómo funcionan los sistemas y los procesos detrás del software. Aprendo practicando, investigando errores y entendiendo por qué funciona cada solución. Exploro desarrollo, bases de datos, sistemas operativos y fundamentos de ciberseguridad.</p>
+    <nav aria-label="Navegación principal">
+      <a href="#perfil">Perfil</a>
+      <a href="#competencias-sena">Competencias SENA</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#formacion">Formación</a>
+      <a href="#intereses">Intereses</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+  <main class="container">
+    <section id="perfil">
+      <h2>Perfil profesional</h2>
+      <p>Soy Técnico en Programación de Software y actualmente curso la Tecnología en Análisis y Desarrollo de Software (ADSO) en el SENA. Estoy fortaleciendo mis conocimientos mediante ejercicios y proyectos prácticos. Me interesa comprender los fundamentos, analizar problemas y documentar lo que aprendo, en lugar de limitarme a copiar soluciones.</p>
+      <p>Busco seguir creciendo en programación y tecnología, con especial interés en sistemas operativos, hardware, software y ciberseguridad.</p>
+    </section>
+
+    <section id="competencias-sena">
+      <h2>Competencias de Formación SENA (ADSO)</h2>
+      <ul class="sena-list">
+        <li><strong>Análisis de Requisitos:</strong> Levantamiento de requerimientos del cliente, elaboración de pliegos de condiciones y documentación de Especificaciones de Requisitos de Software (SRS).</li>
+        <li><strong>Diseño de Software:</strong> Modelado conceptual y lógico de datos (diagramas Entidad-Relación) y diseño de diagramas UML (casos de uso, clases y actividades).</li>
+        <li><strong>Desarrollo y Programación:</strong> Construcción de componentes de software orientados a objetos y sitios web interactivos aplicando estándares de calidad y buenas prácticas.</li>
+        <li><strong>Gestión de Bases de Datos:</strong> Administración y diseño relacional, creación de scripts SQL (DDL/DML), consultas estructuradas, vistas, triggers y procedimientos almacenados.</li>
+        <li><strong>Pruebas e Implantación:</strong> Verificación y validación de la lógica del negocio mediante pruebas unitarias y despliegue básico de aplicaciones.</li>
+      </ul>
+    </section>
+
+    <section id="habilidades">
+      <h2>Habilidades técnicas</h2>
+      <div class="grid">
+        <article class="skill">
+          <h3>Desarrollo web</h3>
+          <ul class="tags">
+            <li>HTML5</li><li>CSS3</li><li>Bootstrap</li><li>JavaScript</li><li>PHP</li>
+          </ul>
+        </article>
+        <article class="skill">
+          <h3>Programación</h3>
+          <ul class="tags">
+            <li>Python</li><li>Java</li>
+          </ul>
+        </article>
+        <article class="skill">
+          <h3>Bases de datos</h3>
+          <ul class="tags">
+            <li>SQL</li><li>PostgreSQL</li><li>pgAdmin</li><li>MySQL</li><li>MongoDB</li>
+          </ul>
+        </article>
+        <article class="skill">
+          <h3>Herramientas y sistemas</h3>
+          <ul class="tags">
+            <li>Git</li><li>GitHub</li><li>Linux</li><li>Terminal</li><li>VS Code</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="formacion">
+      <h2>Formación académica</h2>
+      <p><strong>Tecnología en Análisis y Desarrollo de Software (ADSO)</strong><br>SENA · En curso</p>
+      <p><strong>Técnico en Programación de Software</strong><br>SENA · Finalizado</p>
+    </section>
+
+    <section id="intereses">
+      <h2>Áreas de interés</h2>
+      <ul>
+        <li><strong>Ciberseguridad:</strong> fundamentos de seguridad, redes y prácticas responsables en laboratorios autorizados.</li>
+        <li><strong>Sistemas operativos:</strong> Linux, terminal, procesos, permisos y administración básica.</li>
+        <li><strong>Hardware y software:</strong> relación entre componentes físicos, sistema operativo y aplicaciones.</li>
+        <li><strong>Bases de datos:</strong> diseño relacional, consultas SQL y administración de datos relacionales y no relacionales.</li>
+        <li><strong>Desarrollo de software:</strong> entender procesos, resolver problemas y crear soluciones mantenibles.</li>
+      </ul>
+    </section>
+
+    <section id="aprendizaje">
+      <h2>Mi forma de aprender</h2>
+      <p>Aprendo mejor cuando entiendo el propósito de cada paso y cómo se conecta con el proceso completo. Me gusta practicar, probar alternativas, encontrar la causa de los errores y explicar por qué una solución funciona. Considero que documentar y experimentar son partes importantes del aprendizaje técnico.</p>
+    </section>
+
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <div class="project">
+        <strong>Proyecto de práctica en Python</strong>
+        <p>Aplicación de conceptos de lógica, programación orientada a objetos y estructuras de datos.</p>
+        <a href="https://github.com/Romero-rc" target="_blank" rel="noopener">Ver en GitHub</a>
+      </div>
+      <div class="project">
+        <strong>Prácticas de bases de datos</strong>
+        <p>Ejercicios reales de SQL, diseño de tablas, procedimientos almacenados y consultas PostgreSQL / MongoDB.</p>
+        <a href="https://github.com/Romero-rc" target="_blank" rel="noopener">Ver en GitHub</a>
+      </div>
+      <div class="project">
+        <strong>Proyecto web</strong>
+        <p>Página o aplicación creada con HTML, CSS, Bootstrap, JavaScript o PHP.</p>
+        <a href="https://github.com/Romero-rc" target="_blank" rel="noopener">Ver en GitHub</a>
+      </div>
+    </section>
+
+    <section id="objetivo">
+      <h2>Objetivo profesional</h2>
+      <p>Continuar fortaleciendo mis habilidades en desarrollo de software, bases de datos y sistemas operativos, mientras construyo fundamentos de ciberseguridad. Quiero aportar curiosidad técnica, compromiso y disposición para aprender y resolver problemas.</p>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Correo: <a href="mailto:romerociroms@gmail.com">romerociroms@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/Romero-rc" target="_blank" rel="noopener">github.com/Romero-rc</a></p>
+    </section>
+  </main>
+  <footer>
+    <div class="container">Michael Steven Romero Ciro · Hoja de vida y portafolio en construcción</div>
+  </footer>
+</body>
+</html>
